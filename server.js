@@ -30,7 +30,7 @@ global.db = null;
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://Swish-sigce.vercel.app'],
+  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://swish-theta.vercel.app',  ],
   credentials: true
 }));
 
